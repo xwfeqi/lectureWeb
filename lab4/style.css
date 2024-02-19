@@ -1,0 +1,53 @@
+body{
+
+    background-color: #e5e5e5;
+    margin: 0;
+}
+
+.content {
+    width: 60%;
+    margin: auto;
+    max-width: 1400px;
+    min-width: 800px;
+    height: 100vh;
+    background-color: red;
+}
+
+#title {
+
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+    text-transform: capitalize;
+    padding: 15px 0;
+
+}
+
+#sub-title {
+
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    padding-bottom:  15px;
+
+}
+
+footer {
+
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.main {
+    width: 100%;
+    height: calc(100vh - 170px - 16px - 30px);
+    display: flex;
+}
+
+.section {
+
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+}
